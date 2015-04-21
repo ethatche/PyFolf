@@ -1,0 +1,26 @@
+
+*************************
+****** PyFolf v1.0 ******
+*************************
+
+Gameplay Instructions:
+
+PyFolf is a disc golf game. The object is to throw the disc into the basket in as few throws as you can.
+
+For this game, holes vary in length, but every hole is a par 3. 
+
+Of the three courses distributed with this game the easiest is probably the Willamette course, followed by the Haverford course. You will most likely find a good deal of trouble on the TPC course.
+
+Specific controls instructions and a description of the shot and disc types available are given on the controls screen in-game.
+
+
+
+Rules specifics for this game:
+
+Out of bounds will cost you a throw and you must retake your last throw.
+
+Water costs you a throw and the disc is placed at the spot where it crossed into the water hazard.
+
+
+
+Good Luck! and watchout!, the putter turns a tiny bit left!

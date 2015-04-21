@@ -1,0 +1,46 @@
+
+*************************
+****** PyFolf v1.0 ******
+*************************
+
+PyFolf is written on the basis of color recognition, so designing new holes and courses is quite 
+easy. Using either Paint, Photoshop, or other similar programs, follow the steps listed below:
+
+1) Background
+	Create a white bitmap (not jpg) 700 pixels by 700 pixels, call it hole1.bmp, or whatever hole 
+	number you are working on. In case you don't know there, should be 18 holes in a course. 
+	If you create fewer than 18 holes, the program will let you play all the holes you have
+	created, but you will get an error screen when there are no more holes to play. PyFolf
+	won't let you play more than 18 holes.
+
+2) hole.
+	Located in the "..media\images\PSDs" folder there are multiple versions of the basic 
+	images needed to create a hole. The first is the basket image. There are two versions, a
+	psd file for photoshop use, and a bitmap for paint, etc use. Place the hole anywhere on 
+	the background. If the disc flys over a a pixel of rgb color = (175,174,174), it will think
+	that it has hit the hole, so avoid this color elsewhere in on the hole.
+
+3) Tee Site.
+	I usually draw a gray rectangle of rgb = (101,101,101). This is just to resemble real 
+	disc golf courses and is purely cosmetic. On top of this it is important to put one red 
+	pixel of rgb = (255,0,0). This is the color the program searches for to place the disc 	when it
+	first loads a hole. If this is omitted, an error screen will appear and the hole will be 
+	unplayable.
+
+4) Trees
+	I have included both a psd and bmp version of the tree that I use to create my courses. 
+	Feel free to draw your own trees if you wish. If the disc flys over a pixel of rgb color 
+	with the values: r < 10, g > 100, b < 50.
+
+5) Water
+	For water i used the color 0, 136, 251. Put it anywhere your heart desires!
+
+6) To enable the course in-game
+	Create a new folder and name it with your course name. Place the folder in the
+	"media\images\courses" folder. Put all the hole bitmaps in the folder. Add the course name
+	to the "courses.txt" text file in the courses directory, make sure the name is exactly what
+	you have typed as the folder name for the course. The course should be playable in-game now!
+
+
+
+If these notes are unclear or incomplete, please email Evan.
